@@ -18,13 +18,13 @@ public class UserDaoTest {
 
         entityManager = factory.createEntityManager();
 
-        //insert();
+        insert();
 
         //update();
 
         //delete();
 
-        find();
+        //find();
 
         entityManager.close();
         factory.close();

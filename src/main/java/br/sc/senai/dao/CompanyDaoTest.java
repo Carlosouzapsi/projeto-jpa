@@ -20,11 +20,11 @@ public class CompanyDaoTest {
 
         entityManager = factory.createEntityManager();
 
-        //insert();
+        insert();
 
         //listUsers();
 
-        listCompanies();
+        //listCompanies();
 
         entityManager.close();
         factory.close();

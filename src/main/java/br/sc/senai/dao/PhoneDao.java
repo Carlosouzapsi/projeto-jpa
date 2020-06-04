@@ -18,7 +18,7 @@ public class PhoneDao {
 
         entityManager = factory.createEntityManager();
 
-        insert();
+        //insert();
 
         entityManager.close();
         factory.close();
